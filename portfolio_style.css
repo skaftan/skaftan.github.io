@@ -1,19 +1,16 @@
 html,body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
-.strona{
-  display:flex;
-  flex-direction: column;
-  margin:0px;
-  padding:0px;
-}
+
 
 /*header */
 
 
 nav ul {
-  border: 1px black solid;
+  border: 1px white solid;
   text-align: right;
   position: fixed;
   margin-top: -10px;
@@ -44,6 +41,7 @@ nav ul li a:hover {
 .intro-div{
   height: 100vh;
   width: 100vw;
+  max-width:100%;
   background-color: #e0ebe8;
   display:flex;
   align-items: center;
@@ -63,6 +61,7 @@ nav ul li a:hover {
 .projects{
   height: auto;
   width: 100vw;
+  max-width:100%;
   color: #326273;
   background-color: white;
   display: flex;
@@ -118,7 +117,7 @@ nav ul li a:hover {
   margin-bottom: 50px;
   align-self: center;
 }
-.show-all-btn:hover{
+.show-all-btn:hover{ff
   background-color: white;
   transition: 1s;
 }
@@ -129,6 +128,7 @@ nav ul li a:hover {
   flex-direction: column;
   height:85vh;
   width: 100vw;
+  max-width:100%;
   background-color: #5C9EAD;
 }
 .contact-text{
@@ -156,6 +156,7 @@ nav ul li a:hover {
   justify-content: center;
   height: 10vh;
   width:100vw;
+  max-width:100%;
   background-color: #326273;
 }
 .footer-div p {
