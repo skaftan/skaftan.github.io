@@ -1,0 +1,163 @@
+html,body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.strona{
+  display:flex;
+  flex-direction: column;
+  margin:0px;
+  padding:0px;
+}
+
+/*header */
+
+
+nav ul {
+  border: 1px black solid;
+  text-align: right;
+  position: fixed;
+  margin-top: -10px;
+  width: 100%;
+  background-color: #e0ebe8;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #326273;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+
+
+
+/* welcome section */
+.intro-div{
+  height: 100vh;
+  width: 100vw;
+  background-color: #e0ebe8;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.intro-div h2{
+  margin-bottom:-10px;
+  color:#326273;
+}
+.intro-div p{
+  color: #FF9F1C;
+}
+
+/* work section */
+.projects{
+  height: auto;
+  width: 100vw;
+  color: #326273;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: ;
+  background-color: #ffffff;
+
+}
+
+
+.mid-div{
+  padding-top:30px;
+  color: #326273;
+}
+.project1{
+  display: flex;
+  height:250px;
+  min-width: 300px;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  width: 25%;
+  margin: 20px;
+  border: 3px solid #5C9EAD;
+  border-radius: 5px;
+
+}
+.project-image{
+  display: flex;
+  width:100%;
+  height:85%;
+  border-bottom:3px solid #5C9EAD;
+  justify-content: center;
+  align-items: center;
+}
+.project-name{
+  display:flex;
+  width:100%;
+  height:15%;
+  background-color: #E0EBE8;
+  justify-content: center;
+  align-items: center;
+
+}
+.show-all-btn{
+  background-color: #E0EBE8;
+  padding: 20px;
+  border: 3px solid #5C9EAD;
+  border-radius:5px;
+  color:#5C9EAD;
+  margin-bottom: 50px;
+  align-self: center;
+}
+.show-all-btn:hover{
+  background-color: white;
+  transition: 1s;
+}
+
+/* contact section */
+.contact-div{
+  display:flex;
+  flex-direction: column;
+  height:85vh;
+  width: 100vw;
+  background-color: #5C9EAD;
+}
+.contact-text{
+  color:white;
+  padding-top:200px;
+}
+.contact-links{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  padding:50px;
+  border: 1px solid white;
+}
+.link1{
+  border:2px solid white;
+  border-radius: 5px;
+  padding:20px;
+  margin: 20px;
+}
+
+/*footer section */
+.footer-div{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height: 10vh;
+  width:100vw;
+  background-color: #326273;
+}
+.footer-div p {
+  color:white;
+}
